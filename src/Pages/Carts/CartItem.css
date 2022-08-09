@@ -1,0 +1,27 @@
+.cart-holder{
+    border-top: 0.0288rem solid black;
+    border-bottom: 0.0288rem solid black;
+
+}
+.cart-wrapper{
+    width: 30%;
+    position: fixed;
+    top: 110px;
+    right: 190px ;
+    border-radius: 5px;
+    background-color: white ;
+    margin-top: 20px;
+    z-index: 1;
+
+}
+.cart-holder h4{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.close{
+    transition: transform 0.2s linear;
+}
+.close:hover{
+    transform: rotate(90deg);
+}

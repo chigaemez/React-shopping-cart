@@ -1,0 +1,127 @@
+/* @media screen and (min-width: 1001px) { */
+  .nav-item {
+    font-size: 1.1432rem;
+    color: white;
+    margin: 20px 20px;
+  }
+  .nav-link {
+    text-decoration: none;
+    background-color: transparent;
+    color: white !important;
+    border: 0.1938rem solid rgba(255, 255, 255, 0);
+  }
+  .icon {
+    color: white;
+    font-size: 1.2342rem;
+    cursor: pointer;
+    margin: auto 46px;
+  }
+  .btn {
+    border: 0.1938rem solid white !important;
+    padding: 10px 45px !important;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+  }
+
+  .nav-link:active,
+  .nav-link:active:focus {
+    border-top: 0.1938rem solid white !important;
+  }
+  .nav-link:hover {
+    border-top: 0.1938rem solid white !important;
+  }
+
+  .btn:active,
+  .btn:active:focus {
+    border-top: 0.1938rem solid white !important;
+    outline: none;
+  }
+  .btn:hover {
+    border-top: 0.1938rem solid white !important;
+    color: white;
+    outline: none;
+  }
+  .btn:focus {
+    outline: none !important;
+  }
+  .item-count{
+    color: white;
+    position: absolute;
+    right: 31px;
+    font-size: 13px;
+    bottom: 9px;
+    background-color: rgb(214, 42, 42);
+    padding: 5px;
+    border-radius: 60%;
+ 
+  }
+  .cart-icon{
+    position: relative;
+  }
+/* } */
+
+@media screen and (max-width: 600px) {
+  .nav-item {
+    font-size: 1.1432rem;
+    color: white;
+    margin: 10px 20px;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: white !important;
+    border: 0.1938rem solid rgba(255, 255, 255, 0);
+  }
+  .icon {
+    color: white;
+    font-size: 1.2342rem;
+    cursor: pointer;
+    margin: 20PX 46px;
+    display: block;
+  }
+  .btn {
+    border: 0.1938rem solid white !important;
+    padding: 10px 45px !important;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .nav-link:active,
+  .nav-link:active:focus {
+    border-top: 0.1938rem solid white !important;
+  }
+  .nav-link:hover {
+    border-top: 0.1938rem solid white !important;
+  }
+
+  .btn:active,
+  .btn:active:focus {
+    border-top: 0.1938rem solid white !important;
+    outline: none;
+  }
+  .btn:hover {
+    border-top: 0.1938rem solid white !important;
+    color: white;
+    outline: none;
+  }
+  .btn:focus {
+    outline: none !important;
+  }
+  .item-count{
+    color: white;
+    position: absolute;
+    right: 36px;
+    font-size: 9px;
+    bottom: 32px;
+    background-color: rgb(214, 42, 42);
+    padding: 5px;
+    border-radius: 60%;
+
+  }
+  .cart-icon{
+    position: relative;
+  }
+}

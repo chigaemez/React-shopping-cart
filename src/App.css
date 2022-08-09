@@ -1,0 +1,78 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+  padding: 30px;
+}
+
+.header a{
+  text-decoration: none;
+  font-size: 20px;
+  margin: 40px 50px;
+  color: white;
+}
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #282c34;
+  margin-top: -5px; padding: -3px;
+  color: white;
+}
+.text-center{
+  text-align: center;
+  color: #282c34;
+  letter-spacing: 3px;
+  margin: 60px auto;
+}
+.image img{
+  width: 300px;
+  height: 400px;
+}
+.card-body button{
+  width: 200px;
+  height: 40px;
+  border: none;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  background-color: #282c34;
+  color: white;
+}
+.row{
+  display: flex;
+  justify-content: space-around
+}
+.form-control{
+  align-items: flex-end;
+  width: 110%;
+  height: 30px;
+  border: none;
+  background-color: #282c34;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+}
+.text{
+  font-size: 20px;
+}
+.product-name{
+  font-size: 20px;
+  color: red;
+}
+.card-body{
+  width: 300px;
+  height: 400px;
+  display: inline-flex;
+  border:  1px solid #282c34;
+  margin: 30px 140px ;
+  
+}
+.holder{
+  display: inline-block;
+}

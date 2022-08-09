@@ -1,0 +1,23 @@
+.product-cart-image{
+    width:300px;
+    height: 40vh;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.item h4{
+    font-size: 16px;
+}
+.item h5{
+    font-size: 15px;
+}
+.item{
+    border: 0.1337rem solid black;
+    width: 325px !important;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.cart {
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+}

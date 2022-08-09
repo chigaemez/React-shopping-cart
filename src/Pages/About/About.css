@@ -1,0 +1,15 @@
+.about-wrapper{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.repo span{
+    font-size: 20px;
+    padding: 0px 10px;
+}
+.repo{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 11px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
