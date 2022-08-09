@@ -5,7 +5,6 @@ import Header from './component/Shared/Header';
 import CartState from './context/Cart/CartState';
 import Footer from './component/Shared/Footer';
 import Cart from './Pages/Carts/Cart';
-import About from './Pages/About/About';
 
 
 function App() {

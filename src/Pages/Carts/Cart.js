@@ -11,11 +11,11 @@ const Cart = () => {
 
   return (
     <>
-        <div className='container cart-wrapper' >
+        <div className='cart-wrapper' >
       {showCart && (
         <div>
           <div style={{ textAlign: 'right' }}>
-            <FaTimes aria-hidden='true' onClick={ShowHiddenCart} style={{ cursor: 'pointer' }} className='close' />
+            <FaTimes aria-hidden='true' onClick={ShowHiddenCart} style={{ cursor: 'pointer' }} className='close-btn' />
 
           </div>
 

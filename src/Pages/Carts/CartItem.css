@@ -19,9 +19,9 @@
     font-weight: 600;
 
 }
-.close{
+.close-btn{
     transition: transform 0.2s linear;
 }
-.close:hover{
+.close-btn:hover{
     transform: rotate(90deg);
 }
