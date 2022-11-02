@@ -4,7 +4,7 @@
 
 }
 .cart-wrapper{
-    width: 30%;
+    width: 60%;
     position: fixed;
     top: 110px;
     right: 190px ;
@@ -24,4 +24,14 @@
 }
 .close-btn:hover{
     transform: rotate(90deg);
+}
+
+.purchase{
+    width: 20rem !important;
+    border-radius: 8px !important;
+}
+
+.top-hold{
+    display: flex;
+    justify-content: space-between;
 }

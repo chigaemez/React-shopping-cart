@@ -1,25 +1,43 @@
-import React, { useContext } from 'react'
+import React, { useContext,  } from 'react'
 import './Product.cs/ProductItem.css'
+import {FaShoppingCart} from 'react-icons/fa'
+import {FaInfo} from 'react-icons/fa'
 import CartContext from '../../context/Cart/CartContext'
-// import formatCurrency from "react-currency-format"
 
 const ProductItem = ({ product }) => {
+    
 
-    const {addToCart} = useContext(CartContext)
-    // let opts ={format : '%s%v', symbol: ''}
+    const {addToCart, cartItems, increase} = useContext(CartContext)
+    
+
+
     
     return (
         <div className='container col'>
 
             <div className="item">
-            
+                <FaInfo className='info-icon'/>
                 <img src={product.photo} className='product-cart-image' alt="" />
                 <h4>{product.name}</h4>
-                <h5>{product.price}</h5>
-                <button className='cart btn bg-dark' onClick={() => addToCart(product)}> Add to Cart</button>
+                <h5>${product.price}</h5>
+
+
+             
+                {
+
+                    cartItems.map( product =>product.id).includes(product.id) ?
+        
+                    <button className="cart-btn btn  text-dark" onClick={() => addToCart(product)}>Add more</button>
+
+                    : 
+
+                    <button className="cart-btn btn text-dark" onClick={() => addToCart(product)}>Add to cart <span className='shop'> <FaShoppingCart/> </span></button>
+
+                }
+               
+
                 
                 </div>
-
         </div>
     )
 }

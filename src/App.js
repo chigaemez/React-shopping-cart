@@ -5,6 +5,8 @@ import Header from './component/Shared/Header';
 import CartState from './context/Cart/CartState';
 import Footer from './component/Shared/Footer';
 import Cart from './Pages/Carts/Cart';
+import About from './Pages/About/About'
+import {BrowserRouter as Router, Route, Routes}  from 'react-router-dom'
 
 
 function App() {
@@ -14,11 +16,19 @@ function App() {
 
     <div>
       <CartState>
-        <Header />
-        <Cart/>
-          <ProductGrid />
+        <Router>
+            <Header />
 
-        <Footer />
+            <Routes>
+              <Route path='/ProductGrid'  element={<ProductGrid/>}/>
+              <Route path='/About'  element={<About/>}/>
+              
+            </Routes>
+            <Cart/>
+
+            <Footer />
+
+        </Router>
       </CartState>
     </div>
 

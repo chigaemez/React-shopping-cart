@@ -16,7 +16,7 @@
     cursor: pointer;
     margin: auto 46px;
   }
-  .btn {
+  .Log {
     border: 0.1938rem solid white !important;
     padding: 10px 45px !important;
     font-size: 16px;
@@ -32,17 +32,17 @@
     border-top: 0.1938rem solid white !important;
   }
 
-  .btn:active,
-  .btn:active:focus {
+  .Log:active,
+  .Log:active:focus {
     border-top: 0.1938rem solid white !important;
     outline: none;
   }
-  .btn:hover {
+  .Log:hover {
     border-top: 0.1938rem solid white !important;
     color: white;
     outline: none;
   }
-  .btn:focus {
+  .Log:focus {
     outline: none !important;
   }
   .item-count{
@@ -79,7 +79,7 @@
     margin: 20PX 46px;
     display: block;
   }
-  .btn {
+  .Log {
     border: 0.1938rem solid white !important;
     padding: 10px 45px !important;
     font-size: 16px;
@@ -97,17 +97,17 @@
     border-top: 0.1938rem solid white !important;
   }
 
-  .btn:active,
-  .btn:active:focus {
+  .Log:active,
+  .Log:active:focus {
     border-top: 0.1938rem solid white !important;
     outline: none;
   }
-  .btn:hover {
+  .Log:hover {
     border-top: 0.1938rem solid white !important;
     color: white;
     outline: none;
   }
-  .btn:focus {
+  .Log:focus {
     outline: none !important;
   }
   .item-count{
