@@ -4,15 +4,93 @@
 
 }
 .cart-wrapper{
-    width: 60%;
-    position: fixed;
-    top: 110px;
-    right: 190px ;
+    width: 100%;
     border-radius: 5px;
     background-color: white ;
     margin-top: 20px;
     z-index: 1;
+    padding: 0px 30px;
 
+}
+.check-btn{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.cart-total{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.total-cal{
+    width: 25%;
+    font-size: 20px;
+}
+
+.total{
+    display:flex;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.amtintotal{
+    font-size: 26px;
+    text-align: right ;
+    font-weight: 700;
+}
+
+.total h3{
+    font-size: 20px;
+}
+.total-cal p{
+    font-size: 14px;
+}
+
+.total-cal a {
+    text-decoration: none;
+    font-size: 17px;
+    text-align: left;
+    
+}
+.clear button{
+    width: 90%;
+    border: 2px solid #444444;
+    border-radius: 10px;
+
+}
+.empty{
+    text-align: center;
+
+    padding:150px;
+    
+}
+
+.empty p{
+    font-size: 30px;
+}
+
+.empty a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #444444;
+}
+
+.clear{
+    width: 16%;
+}
+
+.arrow{
+    font-size: 23px;
+}
+
+
+
+.checkout{
+    width: 100%;
 }
 .cart-holder h4{
     font-size: 20px;
@@ -29,9 +107,71 @@
 .purchase{
     width: 20rem !important;
     border-radius: 8px !important;
+    border: 2px solid #444444;
 }
 
 .top-hold{
     display: flex;
     justify-content: space-between;
+}
+
+.Amtincart{
+    font-size: 17px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.title h3{
+    font-size: 16px;
+}
+.first{
+    margin-left: 300px !important;
+}
+
+@media screen and (max-width: 600px) {
+
+    .cart-holder{
+        border-top: 0.0288rem solid black;
+        border-bottom: 0.0288rem solid black;
+    
+    }
+    .cart-wrapper{
+        width: 100%;
+        
+        border-radius: 5px;
+        background-color: white ;
+        margin-top: 20px;
+        z-index: 1;
+        padding: 0px 30px;
+    
+    }
+    .cart-holder h4{
+        font-size: 20px;
+        font-weight: 600;
+    
+    }
+    .close-btn{
+        transition: transform 0.2s linear;
+    }
+    .close-btn:hover{
+        transform: rotate(90deg);
+    }
+    
+    .purchase{
+        width: 20rem !important;
+        border-radius: 8px !important;
+    }
+    
+    .top-hold{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .Amtincart{
+        font-size: 17px;
+    }
 }

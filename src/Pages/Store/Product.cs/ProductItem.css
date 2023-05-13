@@ -5,22 +5,22 @@
     border-radius: 10px;
 }
 .item h4{
-    font-size: 16px;
+    font-size: 15px;
 }
 .item h5{
     font-size: 15px;
 }
 .item{
-    border: 0.1337rem solid black;
     width: 325px !important;
     padding: 10px;
+    height: 63vh;
     margin: 20px auto;
     border-radius: 10px;
 }
 .cart-btn { 
     border: 0.1337rem solid black !important;
     border-radius: 10px !important;
-    width: 90%;
+    width: 98%;
     font-size: 16px;
     height: 50px;
     color: white;
@@ -29,6 +29,8 @@
     align-items: center;
     justify-content: center;
 }
+
+
 
 .info-icon{
     cursor: pointer;
@@ -40,3 +42,4 @@
     font-size: 20px;
     margin: auto 10px;
 }
+
