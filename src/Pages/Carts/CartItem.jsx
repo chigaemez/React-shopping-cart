@@ -11,7 +11,7 @@ const CartItem = ({ item }) => {
   const dispatch = GlobalState.dispatch
 
 
-  return (
+  return ( 
 
 
     <li className='cart-item text-center'>

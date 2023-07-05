@@ -15,9 +15,9 @@ const ProductItem = ({ item }) => {
     item.quantity = 1
  }
 
-  return (
+  return ( 
     <div className='container-fluid col'>
-    
+     
       <div className='item'>
 
    
